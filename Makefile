@@ -5,10 +5,10 @@ CXX = g++
 CXXFLAGS = -Wall -std=c++11
 
 # Target executable
-TARGET = clockTest
+TARGET = testClock
 
 # Source files
-SRCS = main.cpp clockType.cpp
+SRCS = testclock.cpp clockType.cpp
 
 # Object files
 OBJS = $(SRCS:.cpp=.o)
