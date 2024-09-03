@@ -110,4 +110,3 @@ clockType::clockType()  //default constructor
     min = 0;
     sec = 0;
 }
-0 comments on commit 0cc8aa1
