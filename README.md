@@ -26,3 +26,14 @@ printTime() const:
   * Validates the provided values and assigns 0 if they are invalid.
 8. clockType():
   * Default constructor that sets the time to 00:00:00.
+
+## Explanation of the Test Program:
+1. Default Constructor: Initializes `clock1` with the default time (`00:00:00`) and prints it.
+1. Parameterized Constructor: Initializes `clock2` with the time `12:30:45` and prints it.
+1. `setTime` Function: Sets `clock1` to `23:59:58` and prints the updated time.
+1. `incrementSeconds` Function: Increments the seconds of `clock1` twice and prints the time after each increment.
+1. `incrementMinutes` Function: Sets `clock1` to `23:59:58`, increments the minutes, and prints the updated time.
+1. `incrementHours` Function: Sets `clock1` to `23:59:58`, increments the hours, and prints the updated time.
+1. `getTime` Function: Retrieves the time from `clock2` and prints the retrieved hours, minutes, and seconds.
+1. `equalTime` Function: Compares `clock1` and `clock2`, prints whether they are equal, then changes `clock1` to match `clock2`, and checks equality again.
+This program should help you verify that each function of the `clockType` class behaves as expected.
